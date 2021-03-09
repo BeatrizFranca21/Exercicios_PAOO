@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-cursos';
+
+    cursos = [
+      {
+        nome:"Java",
+        carga_hora:100
+      },
+      {
+        nome:"C",
+        carga_hora:80
+      }
+    ]
+
+    adicionar(curso){
+      this.cursos.push(curso);
+
+    }
 }

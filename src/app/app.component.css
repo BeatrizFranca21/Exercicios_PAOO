@@ -1,13 +1,4 @@
-.janela{
-	width: 80%;
-	background-color: lightblue;
-	border: solid black 4px;
-	margin-top: 10px;
-}
-body{
-    background-color: gray;
-	color:black;
-	font-family: Helvetica;
-    position: relative;
-    margin: auto;
+.container {
+    display: flex;
+    flex-wrap: wrap;
 }
